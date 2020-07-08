@@ -1,0 +1,71 @@
+body {   background-color: black;
+			margin: 0;
+			font-family: "Helvetica", "Arial", sans-serif;
+	  }
+
+#myhead { margin:auto; display:table; font-weight: bold; font-size: x-large; color:darkred; }
+#ingreen { color:green; }
+#inred { color:red; }
+#inblack { font-weight:bold; color:black; }
+#center { margin:auto; display:table; }
+#countdown { font-weight:bold; color:darkred; }
+#disclaim { margin:1em; font-size:small; font-style: italic; color:darkgreen; } 
+#popup { display: none; }
+#parent:hover #popup { color:darkred; font-size: medium; display: block; text-align:left; }
+#parent { color:navy; text-align: center; }
+
+#box {
+  max-width: 47em;
+  height: auto; /* adds slider to the whole page */
+  border: medium double gray;
+  border-radius: 10px;
+  margin: auto;
+  /* overflow-y: auto; adds slider to the box. Use when height: auto; is not set */
+  background-color: #feb; 
+}
+
+table {
+/*  background-color: #cfb; */
+/*  border: none; /* medium double gray; */
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th {
+  background-color: #BBBBBB;
+/*  color: darkred; */
+  border: 1px solid black;
+  text-align: right;
+  font-weight: bold;
+  padding-right: 5px;
+}
+
+td {
+  border: 1px solid black;
+  text-align: right;
+  font-weight: bold;
+  padding-right: 5px;
+}
+
+tr:hover {background-color: #a0f0a0;}
+
+th:hover{
+/* z-index:10; */
+position:relative;
+}
+
+th:hover:before{
+content:attr(tooltip);
+color: black;
+width: 150px;
+text-align: left;
+display:block;
+background:darkorange;
+border:1px solid black;
+padding-right: 4px;
+border-radius: 7px;
+/* margin:25px 0 0 10px; */
+}
+
+
+
