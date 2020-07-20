@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"> 
+  <meta name="description" content="FX trading robot Forecasts">
+  <meta name="keywords" content="AWT, Trading, Automatic, Autonomous, Trader, Robotic, Real Time, AI, Forecast, Tip">
+  <meta name=”description” content=
+  ”Autonomous realtime public trading. Free automatic tips and forecasts. Primarily trading EUR/USD. Performance statistics included.”>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="main.css"> 
+  <script src="dtimer.js"></script>
+  <title>AWT - Autonomous Realtime Web Trading</title>
+</head>
+<body onload="timermod.start();">
+<div id=box>
+<span id=myhead>AWT: Autonomous Web Trader</span>
+<p id=disclaim>Links: <a href="index.html">Trades (Home)</a>,  
+<a href="prindex.html">Activations</a>. For illustration only. Use at your own risk.
+No warranties, representations or responsibilities are given or assumed. 
+Closed when markets are inactive or at any other times.  
+All amounts are in $USD, S(pread) is in tenths of a pip.</p>
+<span id=center>This is a <strong>practice</strong> trading session of <strong>EUR_USD</strong> every <strong>5 minutes</strong> in lots of <strong>50000</strong> units.</span><span id=center>AWT will analyse and maybe report a trade here in less than <span id='countdown'></span>.</span><br><table><caption>Recent Activations</caption>
+<tr>
+	<th tooltip='Trade: B=bought S=sold'>T</th>
+    <th tooltip='UTC Timestamp'>Date|Time</th>
+	<th tooltip='Current buy limit'>Buy@</th>
+	<th tooltip='Best bid to buy'>Bid</th>
+	<th tooltip='Bid change'>+/-</th>
+    <th tooltip='Spread=Ask-Bid'>S</th>
+	<th tooltip='Best ask to sell'>Ask</th>
+	<th tooltip='Ask change'>+/-</th>
+	<th tooltip='Current sell limit'>Sell@</th>
+    <th tooltip='Open positions, short when -ve'>P</th>
+	<th tooltip='Mean unit price'>PP</th>
+	<th tooltip='Running Total'>Profit</th>
+</tr>
+<tr><td></td><td>07.20|01:36:00</td><td>1.14116</td><td>1.14165</td><td id=ingreen>2</td><td>5</td><td>1.14170</td><td id=inred>-1</td><td>1.14201</td><td>2</td><td>1.14195</td><td>-29.50</td></tr>
+<tr><td></td><td>07.20|01:30:59</td><td>1.14116</td><td>1.14162</td><td id=inred>-18</td><td>9</td><td>1.14171</td><td id=inred>-13</td><td>1.14201</td><td>2</td><td>1.14195</td><td>-32.49</td></tr>
+<tr><td></td><td>07.20|01:25:58</td><td>1.14116</td><td>1.14180</td><td id=ingreen>16</td><td>4</td><td>1.14185</td><td id=ingreen>16</td><td>1.14201</td><td>2</td><td>1.14195</td><td>-14.49</td></tr>
+<tr><td></td><td>07.20|01:21:00</td><td>1.14116</td><td>1.14164</td><td id=ingreen>14</td><td>4</td><td>1.14168</td><td id=ingreen>13</td><td>1.14201</td><td>2</td><td>1.14195</td><td>-30.51</td></tr>
+<tr><td></td><td>07.20|01:15:58</td><td>1.14116</td><td>1.14149</td><td id=inred>-6</td><td>5</td><td>1.14155</td><td id=inred>-6</td><td>1.14201</td><td>2</td><td>1.14195</td><td>-45.50</td></tr>
+<tr><td>B</td><td>07.20|01:11:00</td><td>1.14116</td><td>1.14156</td><td id=inred>-2</td><td>5</td><td>1.14161</td><td id=inred>-3</td><td>1.14201</td><td>2</td><td>1.14195</td><td>-38.51</td></tr>
+<tr><td></td><td>07.20|01:06:01</td><td>1.14181</td><td>1.14158</td><td id=inred>-53</td><td>6</td><td>1.14165</td><td id=inred>-53</td><td>1.14268</td><td>1</td><td>1.14228</td><td>-35.00</td></tr>
+<tr><td></td><td>07.20|01:00:58</td><td>1.14181</td><td>1.14211</td><td id=inred>-10</td><td>6</td><td>1.14218</td><td id=inred>-10</td><td>1.14268</td><td>1</td><td>1.14228</td><td>-8.50</td></tr>
+<tr><td>B</td><td>07.20|00:56:00</td><td>1.14181</td><td>1.14221</td><td id=ingreen>9</td><td>6</td><td>1.14228</td><td id=ingreen>10</td><td>1.14268</td><td>1</td><td>1.14228</td><td>-3.50</td></tr>
+<tr><td></td><td>07.20|00:51:01</td><td>1.14280</td><td>1.14212</td><td id=inred>-88</td><td>5</td><td>1.14218</td><td id=inred>-85</td><td>1.14367</td><td>0</td><td>0.00000</td><td>0.00</td></tr>
+<tr><td></td><td>07.20|00:45:57</td><td>1.14280</td><td>1.14300</td><td id=inred>-20</td><td>3</td><td>1.14304</td><td id=inred>-23</td><td>1.14367</td><td>0</td><td>0.00000</td><td>0.00</td></tr>
+<tr><td></td><td>07.20|00:40:59</td><td>1.14280</td><td>1.14320</td><td>+0</td><td>6</td><td>1.14327</td><td>+0</td><td>1.14367</td><td>0</td><td>0.00000</td><td>0.00</td></tr>
+<tr><td></td><td>07.20|00:37:18</td><td></td><td>start</td><td></td><td></td><td></td><td></td><td></td><td>0</td><td>0.00000</td><td>0</td></tr>
+</table></div></body></html>

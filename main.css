@@ -29,25 +29,24 @@ table {
 /*  border: none; /* medium double gray; */
   border-collapse: collapse;
   width: 100%;
+  font-weight: bold;
 }
 
 th {
-  background-color: #BBBBBB;
+  background-color: lightgreen;
 /*  color: darkred; */
   border: 1px solid black;
   text-align: right;
-  font-weight: bold;
   padding-right: 5px;
 }
 
 td {
   border: 1px solid black;
   text-align: right;
-  font-weight: bold;
   padding-right: 5px;
 }
 
-tr:hover {background-color: #a0f0a0;}
+tr:hover {background-color: lightcoral;}
 
 th:hover{
 /* z-index:10; */
