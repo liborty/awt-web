@@ -1,1 +1,1 @@
-# Autonomous Web Trader
+# Auto Web Trader
